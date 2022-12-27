@@ -1,0 +1,134 @@
+/*navbar in Contact page*/
+/*nav bar*/
+.navbarHome {
+  background: #C8D5C2;
+  padding: 20px 20px 20px 110px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo a img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo i {
+  position: absolute;
+  top: 76px;
+  left: 114px;
+}
+
+.logo .spa {
+  position: absolute;
+  top: 68px;
+  left: 114px;
+  font-size: 10px;
+}
+
+.pageLink a {
+  color: #9c835b;
+}
+
+
+/*footer on Contact page*/
+/*footer*/
+.footerHome {
+  width: 100%;
+  height: 200px;
+  padding-top: 60px;
+}
+
+#footerCard {
+  padding: 3px 111px 29px 111px;
+  background: #C8D5C2;
+  text-align: center;
+}
+
+.footerCard {
+  width: 300px;
+  font-weight: 600;
+  font-size: 14px;
+  background: #C8D5C2;
+}
+
+.centerCard {
+  background: transparent;
+  border: none;
+}
+
+.centerCardAuthor {
+  font-size: 12px;
+  padding-top: 80px;
+}
+
+/*container in Contact page*/
+.formTitleWrap {
+  border-top: 2px solid #9c835b;
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+  text-align: center;
+}
+
+.formTitle {
+  position: absolute;
+  background: white;
+  height: 40px;
+  top: -14px;
+  width: 340px;
+  left: 39%;
+  font-family: Amperzand, Arial,sans-serif;
+  font-weight: 700;
+  color: #9c835b;
+
+}
+
+#myContainer {
+  padding: 20px 20px 5px 20px;
+  height: 100%;
+  margin: 20px auto;
+  box-shadow: 6px 5px 19px 2px rgba(0,0,0,0.1);
+}
+
+.formContainer {
+  margin: 2px 122px 56px 122px;
+}
+
+/*buttons*/
+/*button at the top of the form*/
+#btnContact {
+  margin-left: 122px;
+  background: #D1D5F6;
+  box-shadow: 6px 5px 19px 2px rgba(0,0,0,0.1);
+}
+
+/*submit button*/
+.btnContactForm {
+  background: #c4ab82;
+  box-shadow: 6px 5px 19px 2px rgba(0,0,0,0.1);
+}
+
+/*buttons in the footer*/
+.btnFooter {
+  width: 164px;
+  background: #D1D5F6;
+  box-shadow: 6px 5px 19px 2px rgba(0,0,0,0.1);
+}
+
+/*close button for the popup*/
+#btnClosePopup {
+  position: relative;
+  left: 169px;
+  border: none;
+  border-radius: 15%;
+}
+
+#contactPopup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}

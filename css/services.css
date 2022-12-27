@@ -1,0 +1,120 @@
+/*navbar*/
+.navbarHome {
+  background: #C8D5C2;
+  padding: 20px 20px 20px 110px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo a img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo i {
+  position: absolute;
+  top: 76px;
+  left: 114px;
+}
+
+.logo .spa {
+  position: absolute;
+  top: 68px;
+  left: 114px;
+  font-size: 10px;
+}
+
+.pageLink a {
+  color: #9c835b;
+}
+
+/*container*/
+#myContainer {
+  padding: 20px 20px 5px 20px;
+  margin: 20px auto;
+  box-shadow: 6px 5px 19px 2px rgba(0,0,0,0.1);
+}
+
+.cardStraight, .cardReverse {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.cardStraight, .cardReverse .btn {
+  border: 1px solid #9c835b;
+  background: #d4b583;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.cardReverse .btn:hover {
+  transform: scale(1.2);
+}
+
+.cardStraight .btn {
+  border: 1px solid #9c835b;
+  background: white;
+  transition: 0.5s ease-in-out;
+}
+
+.cardStraight .btn:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+.cardStraight, .cardReverse .row {
+ border: 1px solid #9c835b;
+  border-radius: 5px;
+}
+
+.imgServiceCard {
+  margin: 25% auto;
+  transition: 0.5s ease-in-out;
+  height: 200px;
+  width: 100%;
+}
+
+.imgServiceCard:hover {
+  transform: scale(1.2);
+}
+
+.cheeseCake, .eclairs {
+  transition: 0.5s ease-in-out;
+}
+.cheeseCake:hover {
+  transform: scale3d(1.3, 1.3, 1.3);
+}
+
+
+
+/*footer*/
+.footerHome {
+  width: 100%;
+  height: 200px;
+  padding-top: 60px;
+}
+
+#footerCard {
+  padding: 3px 111px 29px 111px;
+  background: #C8D5C2;
+  text-align: center;
+}
+
+.footerCard {
+  width: 300px;
+  font-weight: 600;
+  font-size: 14px;
+  background: #C8D5C2;
+}
+
+.centerCard {
+  background: transparent;
+  border: none;
+}
+
+.centerCardAuthor {
+  font-size: 12px;
+  padding-top: 80px;
+}

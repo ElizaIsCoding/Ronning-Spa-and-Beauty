@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--  favicon-->
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="css/contact.css" rel="stylesheet" type="text/css"/>
+  <title>Ronning</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!--nav bar-->
+<nav class="navbar navbar-expand-lg navbarHome">
+  <div class="logo">
+    <a class="navbar-brand" href="index.html"><img src="img/resized-removebg-preview.png"
+                                                   alt="logo"/>
+    </a>
+    <i>Ronning</i>
+    <i class="spa">Spa and Beauty</i>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active pageLink">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item pageLink">
+        <a class="nav-link" href="Contact.html"><strong>Contact</strong></a>
+      </li>
+      <li class="nav-item pageLink">
+        <a class="nav-link" href="About.html">About us</a>
+      </li>
+      <li class="nav-item pageLink">
+        <a class="nav-link" href="Services.html">Our services</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row formTitleWrap">
+  <div class="col-12 ">
+    <div class="formTitle">Please fill in the details below</div>
+  </div>
+</div>
+<!--main container-->
+<div class="container" id="myContainer">
+  <div class="row">
+    <div class="col-12">
+
+      <!--      form in a container-->
+      <div class="formContainer">
+        <form class="row g-3 contactForm">
+          <div class="col-md-6">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputSurname" class="form-label">Surname</label>
+            <input type="text" class="form-control" id="inputSurname" required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputMobile" class="form-label">Mobile number</label>
+            <input type="text" class="form-control" id="inputMobile">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">I would like to..</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Enter keyword">
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Choose from the following</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Book a treatment</option>
+              <option>Book your stay</option>
+              <option>Order a call back to discuss options</option>
+              <option>Order a product</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12 justify-content-between">
+            <button type="submit" class="btn btnContactForm" id="btmSubmitForm">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--  footer-->
+<div>
+  <footer id="footerCard" >
+    <div class="footerHome d-flex justify-content-between">
+      <!--      card-->
+      <div class="card">
+        <div class="card-body footerCard">
+          <p>Contact us at sendamessagetospa@gmail.com</p>
+          <p> We are based <a href="#">here</a></p>
+          <p>Call us at +123123123</p>
+        </div>
+      </div>
+
+      <!--      card-->
+      <div class="card centerCard">
+        <div class="card-body footerCard">
+          <p class="centerCardAuthor">This site was developed by ElizaIsCoding</p>
+        </div>
+      </div>
+
+      <!--      card-->
+      <div class="card">
+        <div class="card-body footerCard">
+          <p>GIFTCARD</p>
+          <p>PRESS</p>
+          <p>FAQ</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</div>
+
+<script type="text/javascript" src="js/contact.js"></script>
+
+</body>
+</html>
